@@ -8,11 +8,6 @@ public class World : MonoBehaviour
 
     UnityEvent Self = new UnityEvent;
 
-    public World()
-    {
-        
-    }
-
 	public void Start()
 	{
 		Earthquake();
@@ -28,7 +23,7 @@ public class World : MonoBehaviour
     public void EyeOfAHurricane()
     {
 		Self.AddListener(churn);
-		self.Churn();
+		Self.Churn();
 		ServeNeeds(this);
 		if(false)
 		{
@@ -67,7 +62,7 @@ public class World : MonoBehaviour
 			t.reporters.cropped = true;
 		}
 		
-		Self.transform.LookAt(lowPlane)
+		transform.LookAt(lowPlane)
 		
 		int uhOh = 780000000;
 		int uhOh *= uhOh;
@@ -88,15 +83,6 @@ public class World : MonoBehaviour
 		Psyched = true;
 		
 		Destroy(this);
-			
     }
-	
-	void Churn () { }
-	
-	enum LennyBruce
-	{
-		Afraid,
-		NotAfraid
-	}
 }
 // dorktoast
