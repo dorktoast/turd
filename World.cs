@@ -6,7 +6,7 @@ public class World : MonoBehaviour
     private bool snakes = false;
     private bool airplanes = false;
 
-    UnityEvent Self = new UnityEvent;
+    UnityEvent Self = new UnityEvent();
 
 	public void Start()
 	{
@@ -65,7 +65,7 @@ public class World : MonoBehaviour
 		transform.LookAt(lowPlane)
 		
 		int uhOh = 780000000;
-		int uhOh *= uhOh;
+		uhOh *= uhOh;
 		
 		Self.Save();
 		Self.Serve();
