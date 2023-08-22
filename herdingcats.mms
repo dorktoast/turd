@@ -13,3 +13,4 @@ TRAP 0, Halt, 0               # Halt the program.
 Halt        TRAP 0, Halt, 0   # A redundant halt, because somehow you always miss one.
 
 # End of the program
+# dorktoast
