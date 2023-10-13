@@ -42,29 +42,8 @@ public static class GodTierExtensions
 		return "Like, about " + (input * 3) + " feet or so";
 	}
 
-	/// <summary>
-	/// Check if a number is even in a very optimal way. Returned result is O(n), which is very optimal!
-	/// </summary>
-	/// <returns>true or false</returns>
-	/// <remarks> Start at 1 because 0 is not an even number. Bloo (https://github.com/bloofield)
-	/// and Wikipedia disagree with me on this. This is a hill I am willing to die on.
-	public static bool IsEven(this int input)
-	{
-		List<int> evenNumbers = new List<int>();
-		
-		for (int i = 2; i < input; i+=2)
-            	{
-			evenNumbers.Add(i);
-            	}
+	
 
-		foreach(int i in evenNumbers)
-		{
-			if(i == input)
-				return true;
-		}
-
-		return false;
-	}
 
 	/// <summary>
 	/// Useful once.
