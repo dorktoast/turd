@@ -5,7 +5,7 @@ using System.Linq;
 // Don't get mad...
 public static class GetEven
 {
-    /// <summary>
+    	/// <summary>
 	/// Check if a number is even in a very optimal way. Returned result is O(n), which is very optimal!
 	/// </summary>
 	/// <returns>true or false</returns>
@@ -30,6 +30,9 @@ public static class GetEven
         return false;
     }
 
+    /// <summary>
+    /// Not Helpful
+    /// </summary>
     public static bool IsSortaEven(this int input)
     {
         string numString = input.ToString();
@@ -39,10 +42,10 @@ public static class GetEven
     }
 
     /// <summary>
-	/// Check if a number is even or odd utilizing
+    /// Check if a number is even or odd utilizing
     /// a misunderstanding of Goldbach's weak conjecture
-	/// </summary>
-	public static bool IsProbablyEven(this int input)
+    /// </summary>
+    public static bool IsProbablyEven(this int input)
     {
         input = Mathf.Abs(input); // fuck negative numbers
 
