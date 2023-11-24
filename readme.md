@@ -6,8 +6,7 @@ This repo began as a project I undertook at 3 am on a Monday night, and now you 
 
 **Contribute to The Useless Repo (Duh)**
 
-* Your code should compile in the language it's written. This is a repo of garbage code, not *garbage* code, you feel me?
-* Make a new file for your submissions. The final line of your file should be a comment with the submitter's GH username.
+* The final line of your contribution should be your username.
 * PRs modifying another user's code will not be accepted.
 * Not all PRs will be accepted; I'll try to curate the best of the best.
 * I feel like I don't need to say this, but...use any of this code at your own risk. Or like...don't use it at all. Please.
