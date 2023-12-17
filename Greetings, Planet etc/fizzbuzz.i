@@ -1,0 +1,45 @@
+(100)
+
+	DO .1 <- .100	
+	DO .2 <- #15
+	DO (2030) NEXT
+	DO .4 <- '?"'.4~.4'~#1"$#1'~#3
+	DO (130) NEXT
+	
+	DO .2 <- #3
+	DO (2030) NEXT
+	DO .4 <- '?"'.4~.4'~#1"$#1'~#3
+	DO (110) NEXT
+
+PLEASE NOTE THAT IT IS 5AM AND I AM GOING OUT OF MY MIND
+
+	DO .2 <- #5
+	DO (2030) NEXT
+	DO .4 <- '?"'.4~.4'~#1"$#1'~#3
+	DO (120) NEXT
+	
+	DO .101 <- .100
+	DO (199) NEXT
+
+(110)	DO (111) NEXT
+	DO FORGET #1
+	DO .101 <- #61440
+	DO (199) NEXT
+
+
+(120)	DO (111) NEXT
+	DO FORGET #1
+	DO .101 <- #45056
+	DO (199) NEXT
+
+(130)	DO (111) NEXT
+	DO FORGET #1
+	DO .101 <- #64256
+	DO (199) NEXT
+
+(111)	DO RESUME .4
+	
+(199)	DO FORGET #1
+	DO RESUME #1
+
+PLEASE NOTE DORKTOAST
