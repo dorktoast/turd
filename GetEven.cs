@@ -142,5 +142,22 @@ public static class GetEven
             }
             return true;
         }
+
+        /// <summary>
+        /// This actually works
+        /// </summary>
+        /// <remarks>Errynei made this at 2am</remarks>
+        public static bool isEvenISwear(int input)
+        {
+            float thatButAFloat = input;
+
+            float halfOfThat = thatButAFloat / 2;
+
+            float thatButAnInt = (int)Math.Round(halfOfThat);
+
+            int doubleThat = thatButAnInt * 2;
+
+            return input == doubleThat;
+        }
     }
 }
