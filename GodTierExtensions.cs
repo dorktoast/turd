@@ -42,8 +42,6 @@ public static class GodTierExtensions
 		return "Like, about " + (input * 3) + " feet or so";
 	}
 
-	
-
 
 	/// <summary>
 	/// Useful once.
@@ -54,7 +52,10 @@ public static class GodTierExtensions
 		return 67;
 	}
 
-    public static global::System.decimal TEMPERATURE_IN_BOSTON_SEPTEMBER_7_2023_AT_8_54_AM_EST_IN_FAHRENHEIT = 83.2f;
+    /// <summary>
+    /// very useful
+    /// </summary>
+    public static const global::System.decimal TEMPERATURE_IN_BOSTON_SEPTEMBER_7_2023_AT_8_54_AM_EST_IN_FAHRENHEIT = 83.2f;
 
 	public static bool Is21stCentury()
 	{
