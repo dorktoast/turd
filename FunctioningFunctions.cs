@@ -59,6 +59,32 @@ public class FunctioningFunctions
         System.Threading.Thread.Sleep(1000);
         ExistentialCrisis(); // Continues the crisis
     }
+
+	/// <summary>
+    /// Schrödinger's variable. It's both initialized and not initialized
+    /// until you look at it.
+    /// </summary>
+    public static string SchrödingersString => default!;
+
+	/// <summary>
+	/// In case you ever need to generate more bugs.
+	/// </summary>
+	public static IEnumerable<Exception> BugFactory()
+	{
+	    yield return new NotImplementedException();
+	    yield return new NullReferenceException();
+	    yield return new OutOfMemoryException();
+	}
+
+	/// <summary>
+	/// A thread-safe singleton, but only if you never use threads.
+	/// </summary>
+	public sealed class Singleton
+	{
+		private static readonly Singleton _instance = new Singleton();
+		public static Singleton Instance => _instance;
+		private Singleton() { }
+	}
 }
 
 // dorktoast
