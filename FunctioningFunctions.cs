@@ -6,13 +6,7 @@ public class FunctioningFunctions
 	/// <summary>
 	/// It's ok, you wouldn't get it.
 	/// </summary>
-	public Joke InsideJoke
-	{
-		set
-		{
-			private Joke insideJoke = value;
-		}
-	}
+	public Joke InsideJoke { set; }
 	
 	public void Procrastinate()
 	{
