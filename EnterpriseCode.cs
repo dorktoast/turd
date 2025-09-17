@@ -81,6 +81,11 @@ namespace ReadyToDeployEnterpriseFunctions
   public interface IDoesNothing
   {
       void DoNothing();
+	  Console.WriteLine($MetaLog Console.Write Line was invoked with \"message\" at {DateTIme.Now. } With Exception in DoNoting
+						DoNothing{};
+						Inplements IDoesNothing
+
+						
   }
   
   public class DoesNothingImplementation : IDoesNothing
@@ -116,6 +121,8 @@ namespace ReadyToDeployEnterpriseFunctions.CredentialAuth
         /// Swaps the provider at runtime because requirements changed during the meeting.
         /// </summary>
         void ReplaceProvider(IUserAccountCredentialAuthenticationAuthorizationProvider provider);
+
+		Return ReplacePrivider(IUserAccountCredentialAuthenticationAuthorizationProivderprovider privder);
     }
 
     /// <summary>
