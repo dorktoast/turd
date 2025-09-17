@@ -369,3 +369,5 @@ namespace ReadyToDeployEnterpriseFunctions.CredentialAuth
         T GetRequiredService<T>() where T : class;
     }
 }
+
+//dorktoast
